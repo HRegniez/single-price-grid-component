@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$clr-prim1: hsl(179, 62%, 43%);
+$clr-prim2: hsl(71, 73%, 54%);
+$clr-prim3: hsl(179, 75%, 43%);
+
+$clr-neut1: hsl(204, 43%, 93%);
+$clr-neut2: hsl(218, 22%, 67%);
+
+$fnt-wght1: 400;
+$fnt-wght2: 700;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $clr-neut1;
+    font-family: 'Karla';
+
+    div {
+    color: white;
+    }
+}
+
+.intro {
+    background-color: white;
+    margin: 72px 2rem 0 2rem;
+    padding: 27px 1.4rem 32px 1.4rem;
+
+    h1 {
+        color: $clr-prim1;
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    h2 {
+        color: $clr-prim2;
+        font-size: 15px;
+        margin-bottom: 23px;
+    }
+
+    p {
+        color: $clr-neut2;
+        line-height: 1.8;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+    }
+}
+
+.sub {
+    background-color: $clr-prim1;
+    margin: 0 2rem 0 2rem;
+    padding: 25px 1.4rem 24px 1.4rem;
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+        
+    }
+
+    &_price {
+
+        span {
+            font-size: 31px;
+            font-weight: $fnt-wght2;
+            margin-right: 10px;
+        }
+    }
+
+    &_promote{
+        margin-top: 6px;
+        margin-bottom: 30px;
+    }
+
+    button {
+        width: 100%;
+        height: 50px;
+        background-color: $clr-prim2;
+        border-radius: 10px;
+        color: white;
+        font-weight: $fnt-wght2;
+        font-size: 15px;
+
+    }
+}
+
+.whyUs {
+    padding: 23px 1.4rem 24px 1.4rem;
+    background-color: $clr-prim3;
+    margin: 0 2rem 0 2rem;
+
+    h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        line-height: 1.3;
+        font-size: 15px;
+    }
+}
